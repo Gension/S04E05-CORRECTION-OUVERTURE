@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulaire d'inscription</title>
+    <link href="reset.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
+</head>
+<body>
+    <main>
+        <div class="form-holder">
+            <h1>Register</h1>
+            <form id="register-form">
+                <div class="error hidden">Something went wrong with the form !</div>
+                <div class="form-control">
+                    <label for="username">Username</label>
+                    <input required minlength="6" id="username" name="username" type="text" placeholder="Ex: El0nMu5K" >
+                </div>
+                <div class="form-control">
+                    <label for="email">E-Mail Address</label>
+                    <input required id="email" name="email" type="email" placeholder="Ex: elon@tesla.com" >
+                </div>
+                <div class="form-control">
+                    <label for="password">Password</label>
+                    <input required minlength="8" id="password" name="password" type="password" placeholder="Ex: El0nMu5K" >
+                </div>
+                <div>
+                    <button class="btn">Register</button>
+                </div>
+            </form>
+        </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>

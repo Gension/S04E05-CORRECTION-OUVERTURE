@@ -1,0 +1,100 @@
+html, body {
+    background-color: rgb(244, 233, 243);
+    height: 100%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 2em;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: aliceblue;
+    margin-bottom: .5em;
+}
+
+label {
+    display: block;
+    text-transform: uppercase;
+    font-size: .75em;
+    color: rgb(141, 50, 133) ;
+    font-weight: bold;
+    margin-bottom: .2em;
+}
+
+input {
+    padding: .5em;
+    border-radius: .75em;
+    border: solid 2px transparent;
+    background-color: rgb(244, 233, 243);
+    border: solid 2px rgb(209, 116, 201);
+}
+
+input:hover {
+    border: solid 2px rgb(141, 50, 133);
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100%;
+}
+
+form {
+    width: 80%;
+}
+
+.form-holder {
+    width: 600px;
+    border-radius: 2em;
+    background-color: rgb(227, 134, 219);
+    padding: 2em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-control {
+    margin-bottom: 1em;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.btn {
+    border: none;
+    background-color: rgb(212, 85, 201);
+    padding: 1em;
+    border-radius: 2em;
+    width: 100%;
+    text-transform: uppercase;
+    font-size: .75em;
+    font-weight: bold;
+    color: #FFF;
+}
+
+.btn:hover {
+    
+    background-color:  rgb(141, 50, 133);
+}
+
+.btn:active {
+    
+    background-color:  rgb(165, 51, 156);
+}
+
+.error {
+    width: 100%;
+    text-align: center;
+    margin-bottom: 20px;
+    color: rgb(227, 13, 13);
+    font-weight: bold;
+    background-color: rgb(240, 207, 207);
+    padding: 1em 0em;
+    border-radius: 1em;
+}
+
+.hidden {
+    display: none;
+}
